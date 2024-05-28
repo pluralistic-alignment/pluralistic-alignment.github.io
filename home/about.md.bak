@@ -1,0 +1,29 @@
+---
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
+
+widget: blank # See https://wowchemy.com/docs/page-builder/
+headless: true # This file represents a page section.
+weight: 30 # Order that this section will appear.
+title: #Synthesizing Language and Molecules #for Scientific Insight and Discovery
+subtitle: ''
+design:
+  background:
+    image: backgrounds/KG.webp
+    image_darken: 0.5
+    text_color_light: true
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    # padding: ['20px', '0', '20px', '0']
+  columns: '1'
+  # css_class: fullscreen
+---
+
+
+Welcome to the Language + Molecules Workshop! Join us as we explore molecular solutions from the chemistry domain, such as developing new drugs (e.g. kinase inhibitors), materials (e.g. organic photovoltaics), and chemical processes. These solutions exist in extremely large search spaces, which makes AI tools a necessity. Excitingly, the chemistry field is posed to be substantially accelerated via multimodal models combining language with molecules and drug structures.
+
+Welcome to the Language + Molecules Workshop! Join us as we explore the integration of molecules and natural language, with exciting applications such as developing new drugs, materials, and chemical processes. These molecular solutions  will be critical to address global problems on scales of complexity never-before-seen, in areas such as climate change and healthcare. However, they exist in extremely large search spaces, which makes AI tools a necessity. Excitingly, the chemistry field is posed to be substantially accelerated via multimodal models combining language with molecules and drug structures.
+
+Stay tuned by following us on Twitter [@lang_plus_mols](https://twitter.com/lang_plus_mols).
+

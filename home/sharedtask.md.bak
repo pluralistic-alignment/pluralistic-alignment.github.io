@@ -1,0 +1,70 @@
+---
+# An instance of the Calendly widget for appointment booking
+widget: tickets
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 46
+
+title: Shared Task
+subtitle:
+
+# design:
+#   background:
+#     image: backgrounds/1689707021907.jpeg
+#     image_darken: 0.2
+#     text_color_light: true
+
+# Create a list of your services
+# For each service, add a name, description, and Calendly.com booking link
+# content:
+  # button_book_text: Purchase
+  # services:
+  #   - name: DAY 1
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+  #   - name: DAY 2
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+  #   - name: WORKSHOPS
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+---
+
+
+{style="padding-top: 5rem"}
+
+
+The workshop will feature a novel competitive yet collaborative shared task based on “translating” between molecules and natural language (Edwards et al., 2022). The task is designed to leverage the advantages of natural language for molecular design and understanding and will cover four high-impact areas of molecular science (medicine, energy, etc.).
+
+
+### Task Formulation 
+Molecule translation consists of two tasks: generating (1) a caption given a molecule and (2) a molecule given a description. We will release labeled training and validation splits of our proposed dataset (see below). For the final evaluation, we will release a list of molecules for captioning and adescription list for molecule generation; these lists will cover disjoint molecules. Submissions will upload a corresponding list of generated molecules or captions.
+
+### Evaluation 
+We will use the publicly available evaluation metrics described in (Edwards et al., 2022). Further, we will also extract specific properties from generated captions using simple rules to report property-specific abilities. Scores and a leaderboard will be reported for the full dataset and each of the four high-impact chemistry domains.
+
+### Dataset Design
+The dataset will consist of textual prompts and associated molecular structures. The key reason for creating this standardized synthetic dataset is to thoroughly evaluate the abstraction, functional, and compositional capabilities of submissions; natural language descriptions from the literature are noisy, making it difficult to evaluate abstraction and compositionality. In consultation with domain experts on our advisory board, we will select 20 properties requiring high-level understanding spread across four various high-impact chemistry domains. 
+
+Further, we will design the dataset to focus on compositionality. For example, a molecule may share two properties which are desirable together (e.g., low toxicity and high blood brain barrier permeability). We will exclude some property combinations for the test set. Although we will focus on this synthetic dataset, we will also report a leaderboard for the existing real-world ChEBI-20 dataset. 
+
+## Download
+The dataset will be made available for download here at a later date. Please reach out to us for any issues. 
+
+###Collaboration via Competition
+While a competition will promote innovation and creativity, we recognize that our ultimate goal is scientific discovery. Thus, we propose a novel collaborative element by including molecules of particular interest with unknown properties as roughly 10% of the final evaluation data. We will use an ensemble approach to combine all competitor submissions, and we will invite all shared task participants to a joint publication based on these results. Thus, our workshop will produce tangible results usable by chemistry and medicinal researchers.
+
+### Baseline
+As a baseline, we will finetune MolT5 models (Edwards et al., 2022) following the original paper on our synthetic dataset. We will release model weights for workshop participants to use.
+
+### Submission
+Evaluation set results should be submitted [here]() for the synthetic shared task and [here]() for ChEBI-20.
+
+We encourage authors of submissions to also submit a 4 page short paper detailing their submission. Task submissions may also accompany full length paper submissions, however. 
+
+
+
+

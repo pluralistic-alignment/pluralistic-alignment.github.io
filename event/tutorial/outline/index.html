@@ -1,0 +1,1282 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Outline [180 min.] Applying language models to the scientific domain is becoming increasingly popular due to its potential impact for accelerating scientific discovery (Hope et al., 2022). Beyond extracting information from scientific literature, NLP has the possibility to increase control of the scientific discovery process, which can be achieved through multimodal representations and generative language models." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://language-plus-molecules.github.io/event/tutorial/outline/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#3f51b5" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.423d2d559d7bd242b701389379f2364e.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hubed9f227f414ccc7c06d5e087c036f8a_39756_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubed9f227f414ccc7c06d5e087c036f8a_39756_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://language-plus-molecules.github.io/event/tutorial/outline/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@https://twitter.com/lang_plus_mols" />
+    <meta property="twitter:creator" content="@https://twitter.com/lang_plus_mols" />
+  
+  <meta property="og:site_name" content="Language &#43; Molecules @ ACL 2024" />
+  <meta property="og:url" content="https://language-plus-molecules.github.io/event/tutorial/outline/" />
+  <meta property="og:title" content="Outline | Language &#43; Molecules @ ACL 2024" />
+  <meta property="og:description" content="Outline [180 min.] Applying language models to the scientific domain is becoming increasingly popular due to its potential impact for accelerating scientific discovery (Hope et al., 2022). Beyond extracting information from scientific literature, NLP has the possibility to increase control of the scientific discovery process, which can be achieved through multimodal representations and generative language models." /><meta property="og:image" content="https://language-plus-molecules.github.io/media/icon_hubed9f227f414ccc7c06d5e087c036f8a_39756_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://language-plus-molecules.github.io/media/icon_hubed9f227f414ccc7c06d5e087c036f8a_39756_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://language-plus-molecules.github.io/event/tutorial/outline/"
+  },
+  "name": "Outline",
+  
+  
+  "startDate": "0001-01-01T00:00:00Z",
+  
+  
+  "description": "Outline [180 min.] Applying language models to the scientific domain is becoming increasingly popular due to its potential impact for accelerating scientific discovery (Hope et al., 2022). Beyond extracting information from scientific literature, NLP has the possibility to increase control of the scientific discovery process, which can be achieved through multimodal representations and generative language models."
+}
+</script>
+
+  
+
+  
+
+  
+<link rel="preload" href="/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+  <title>Outline | Language &#43; Molecules @ ACL 2024</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper fullscreen  " data-wc-page-id="3679aaf0df69b6d7cb68d6d10b96e6df" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.24c87d0ac1492b3933e8b941f1cfddd6.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Language &#43; Molecules @ ACL 2024</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Language &#43; Molecules @ ACL 2024</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#call"><span>Call for Papers</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#dates"><span>Dates</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#sharedtask"><span>Shared Task</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#leaderboard"><span>Leaderboard</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#speakers"><span>Speakers</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#schedule"><span>Schedule</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#paper"><span>Accepted Papers</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#organization"><span>Organization</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/tutorial"><span>EACL Tutorial</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Outline</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <br>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Jan 1, 0001 12:00 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <h2 id="outline-180-min">Outline [180 min.]</h2>
+<p>Applying language models to the scientific domain is becoming increasingly popular due to its potential impact for accelerating scientific discovery (Hope et al., 2022). Beyond extracting information from scientific literature, NLP has the possibility to increase control of the scientific discovery process, which can be achieved through multimodal representations and generative language models.</p>
+<h3 id="1-background-60-min">1. Background [60 min.]</h3>
+<p>Scientific Information Extraction [15 min.]
+To start, we will provide a high-level overview on traditional NLP tasks used for scientific discovery (e.g., named entity recognition, entity linking, and relation extraction), as well as recent domain-specific LLMs designed for superior performance on scientific tasks (Beltagy et al., 2019).</p>
+<h4 id="what-is-a-molecule-15-min">What is a molecule? [15 min.]</h4>
+<p>Half of the title is molecules, but what is one? We will start from scratch and discuss what a molecule actually is, including the basic constituents of molecules, atoms and bonds, and how they essentially form graph structures. Then, we will focus on molecular string languages, which are a key building block for chemical language models. We will discuss tradeoffs of these languages (Grisoni, 2023; Weininger, 1988; O’Boyle and Dalke, 2018; Krenn et al., 2020; Cheng et al., 2023). Krenn et al. (2020) proposes a formal grammar approach, which may particularly interest the ACL community.</p>
+<h4 id="molecule-design-using-language-models-15-min">Molecule Design using Language Models [15 min.]</h4>
+<p>Now that we know what a molecule is, we will overview recent work applying NLP techniques to these molecular languages with impressive results. LLMs are traineded with adapted pretraining techniques from (natural) language models to learn molecule representation from large collections of such molecule strings (Frey et al., 2022; Chithrananda et al., 2020; Ahmad et al., 2022; Fabian et al., 2020; Schwaller et al., 2021; NVIDIA Corporation, 2022; Flam-Shepherd and Aspuru-Guzik, 2023; Tysinger et al., 2023). Applications including molecule and material generation, property prediction, and protein binding site prediction.</p>
+<h4 id="drug-discovery--a-brief-primer-15-min">Drug Discovery – A Brief Primer [15 min.]</h4>
+<p>Ok, so NLP is being used for molecules now. What can we do with it?—here, we present a brief overview of drug discovery–an important but challenging problem. Historically, molecular discovery has commonly been done by humans who design and build individual molecules, but this can cost over a billion dollars and take over ten years (Gaudelet et al., 2021). We’ll discuss a little of the process here, including non-NLP deep learning methods, so that we know how to improve it.</p>
+<h3 id="2-integrating-language-with-molecules-95-min">2. Integrating Language with Molecules [95 min.]</h3>
+<h4 id="what-does-natural-language-have-to-offer-15-min">What does natural language have to offer? [15 min.]</h4>
+<p>At least at first, integrating languages and molecules seems like an odd idea. Here, we’ll start an interactive discussion with the audience on what they think potential benefits might be. We’ll make sure to mention the following major advantages, as discussed in the recent survey (Zhang et al., 2023, Section 10.3.3 &ldquo;Natural Language-Guided Scientific Discovery&rdquo;):</p>
+<ol>
+<li>Generative Modeling: One of the largest problems in current LLMs—hallucination—becomes a strength for discovering molecules with high-level functions and abstract properties. In particular, language is compositional by nature (Szabó, 2020; Partee et al., 1984; Han et al., 2023), and therefore holds promise for composing these high-level properties (e.g., antimalarial) (Liu et al., 2022).</li>
+<li>Bridging Modalities: Language can serve to “bridge” between modalities for scarce data.</li>
+<li>Domain Understanding: Grounding language models into external real world knowledge can improve understanding of unseen molecules and advance many emerging tasks, such as experimental procedure planning, which use LLMs as scientific agents.</li>
+<li>Democratization: Language enables scientists without computational expertise to leverage advances in scientific AI.</li>
+</ol>
+<h4 id="do-i-want-multimodality-5-min">Do I want multimodality? [5 min.]</h4>
+<p>An important, yet often overlooked, question in multimodal NLP is to ask: do I need multimodality? For example, if one wants to extract reactions from the literature, a text-to-text model (Vaucher et al., 2020) might be sufficient. However, editing a drug with high-level instructions requires language (Liu et al., 2023a; Fang et al., 2023). Here, we will dive into this question and discuss example scenarios with the audience for how to answer it.</p>
+<h4 id="integrating-modalities-30-min">Integrating Modalities [30 min.]</h4>
+<p>Ok, we’ve decided we want or need multimodality. Next, we need to discuss how people are currently tackling this—we’ll start with two primary methods, bi-encoder models and joint representation models.</p>
+<h5 id="bi-encoder-models-and-beyond">Bi-Encoder Models (and beyond)</h5>
+<p>Bi-Encoder Models consist of an encoder branch for text and a branch for molecules. They have the advantage of not requiring direct, early integration of the two modalities, allowing existing single-modal models to be integrated. Representative examples we will discuss include Text2Mol (Edwards et al., 2021), CLAMP (Seidl et al., 2023), and BioTranslator (Xu et al., 2023) Generally, bi-encoder models are effective for cross-modal retrieval (Edwards et al., 2021; Su et al., 2022; Liu et al., 2022; Zhao et al., 2023b), but they may also be integrated into molecule (Su et al., 2022; Liu et al., 2022) and protein (Liu et al., 2023b) generation frameworks. We’ll talk about all these tasks, applications, and return to some important motivations (e.g., bridging modalities).</p>
+<h5 id="joint-molecule-language-models">Joint Molecule-Language Models</h5>
+<p>Joint models, on the other hand, seeks to model interactions between multiple modalities inside the same network to allow fine-grained interaction. We will discuss encoder-only models (Zeng et al., 2022), encoder-decoder models (Christofidellis et al., 2023), and decoder-only models (Liu et al., 2023c).</p>
+<h5 id="model-differences">Model Differences</h5>
+<p>We will answer important questions such as: Which model should I use? What tasks can each do? Tasks include retrieval (Edwards et al., 2021), “translation” between molecules and language Edwards et al. (2022a), editing molecules (Liu et al., 2022), and chemical reaction planning (Vaucher et al., 2020, 2021).</p>
+<h4 id="an-interactive-example---tba-disease-20-min">An Interactive Example - TBA Disease [20 min.]</h4>
+<p>At this point, there’s been a lot of ideas thrown around. We’ll consolidate them by exploring an interactive example of language-enabled drug design using Google Colab. Our hands-on example will consist of three components:</p>
+<ol>
+<li><em>Language-enabled Drug Design:</em> Participants will explore inputs to multiple language→molecule models to generate their own candidate drugs.</li>
+<li><em>Language-Guided Assay Testing:</em> Here, participants will test their proposed drugs for certain properties. We will follow (Seidl et al., 2023), where natural language descrip- tions are used to test unknown properties.</li>
+<li><em>Interaction Prediction:</em> Finally, we will test if proposed drugs interact with the target. Here, we will compare a language model-based approach (e.g., (Blanchard et al., 2022; Kalakoti et al., 2022)) with a traditional docking approach (Trott and Olson, 2010).</li>
+</ol>
+<h4 id="applications-25-min">Applications [25 min.]</h4>
+<p>Here, we will discuss important applications to improve cross-discipline communication, including drug discovery (emphasizing kinase inhibitors) (Ferguson and Gray, 2018), organic photovoltaics (Kippelen et al., 2009), and catalyst discovery for renewable energy (Zitnick et al., 2020).</p>
+<h3 id="3-recent-trends-and-conclusion-25-min">3. Recent Trends and Conclusion [25 min.]</h3>
+<h4 id="instruction-following-molecular-design-10-min">Instruction-Following Molecular Design [10 min.]</h4>
+<p>In the last year, instruction-following language models (Wei et al., 2021) have surged in popularity. Following this trend, training methodologies and datasets have recently emerged to allow language models to follow instructions related to molecule properties (Liang et al., 2023; Fang et al., 2023; Zeng et al., 2023; Zhao et al., 2023a). We will give a brief overview of this new line of work.</p>
+<h4 id="llms-as-scientific-agents-5-min">LLMs as Scientific Agents [5 min.]</h4>
+<p>Further, we’ll focus on recent work which looks to control experiments with language models (Boiko et al., 2023) and to create tools for enabling domain-specific capabilities in general language models (Bran et al., 2023; Liu et al., 2023a).</p>
+<h4 id="conclusion-10-min">Conclusion [10 min.]</h4>
+<p>We will discuss the key difficulties in the molecule-language domain that need to be addressed by the research community to allow similar progress to the vision-language do- main. This includes:</p>
+<ol>
+<li>data scarcity due to domain expertise requirements</li>
+<li>addressing inconsistency when training on scientific literature</li>
+<li>improved methods for integrating geometric structures into LLMs</li>
+<li>developing better evaluation metrics for chemical predictions without real-world experiments.</li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://language-plus-molecules.github.io/event/tutorial/outline/&amp;text=Outline" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://language-plus-molecules.github.io/event/tutorial/outline/&amp;t=Outline" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Outline&amp;body=https://language-plus-molecules.github.io/event/tutorial/outline/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://language-plus-molecules.github.io/event/tutorial/outline/&amp;title=Outline" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Outline%20https://language-plus-molecules.github.io/event/tutorial/outline/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://language-plus-molecules.github.io/event/tutorial/outline/&amp;title=Outline" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.f28073ac38e4c16e9c9244919450f3c9.js"></script>
+
+    
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+
+
+
+
+
+
+</body>
+</html>

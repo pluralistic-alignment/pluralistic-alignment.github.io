@@ -1,0 +1,4 @@
+Team,BLEU,Exact,Levenshtein,MACCS FTS,RDK FTS,Morgan FTS,FCD,Text2Mol,Validity
+team 1, xx, xx, xx, xx, xx, xx, xx, xx, xx
+team 2, xx, xx, xx, xx, xx, xx, xx, xx, xx
+team 3, xx, xx, xx, xx, xx, xx, xx, xx, xx

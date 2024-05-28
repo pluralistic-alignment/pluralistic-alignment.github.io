@@ -1,0 +1,38 @@
+---
+# An instance of the Calendly widget for appointment booking
+widget: tickets
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 110
+
+title: Acknowledgements
+subtitle: 
+
+# design:
+#   background:
+#     image: backgrounds/KG.webp
+#     image_darken: 0.5
+#     text_color_light: true
+
+# Create a list of your services
+# For each service, add a name, description, and Calendly.com booking link
+# content:
+#   button_book_text: Email Us
+#   services:
+#     - name: Acknowledgements
+#       description: This workshop will be partially supported by the Molecule Maker Lab Institute: an AI research institute program supported by NSF under award No. 2019897 and No. 2034562. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein.
+    # - name: DAY 2
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+    #   link: https://eventbrite.com
+    # - name: WORKSHOPS
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+    #   link: https://eventbrite.com
+---
+
+
+{style="padding-top: 5rem"}
+
+Please email language.molecules@gmail.com if you have any questions.

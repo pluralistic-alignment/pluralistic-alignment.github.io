@@ -1,0 +1,4 @@
+Team,BLEU-2,BLEU-4,ROUGE-1,ROUGE-2,ROUGE-L,METEOR,Text2Mol
+team 1, xx, xx, xx, xx, xx, xx, xx
+team 2, xx, xx, xx, xx, xx, xx, xx
+team 3, xx, xx, xx, xx, xx, xx, xx

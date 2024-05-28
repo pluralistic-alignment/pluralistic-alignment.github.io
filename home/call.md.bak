@@ -1,0 +1,70 @@
+---
+# An instance of the Calendly widget for appointment booking
+widget: tickets
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 40
+
+title: Call for Papers
+subtitle:
+
+# design:
+#   background:
+#     image: backgrounds/1689707021907.jpeg
+#     image_darken: 0.2
+#     text_color_light: true
+
+# Create a list of your services
+# For each service, add a name, description, and Calendly.com booking link
+# content:
+  # button_book_text: Purchase
+  # services:
+  #   - name: DAY 1
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+  #   - name: DAY 2
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+  #   - name: WORKSHOPS
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu sem vehicula, mattis ipsum et, dapibus magna.
+  #     link: https://eventbrite.com
+---
+
+
+{style="padding-top: 5rem"}
+
+
+A natural question to ask is why we want to integrate natural language with molecules. Combining these types of information has the possibility to accelerate scientific discovery: imagine a future where a doctor can write a few sentences describing a patient’s symptoms and then receive exact structure of the drugs necessary to treat that patient’s ailment (taking into account the patient’s genotype, phenotype, and medical history). Or, imagine a world where a researcher can specify the function they want a molecule to perform (e.g., antimalarial or a photovoltaic) rather than its low level properties (e.g., solubility). This high-level control of molecules requires a method of abstract description, and humans have already developed one for communication: language. Integrating language with scientific modalities has the following major advantages, as discussed in the [recent survey, section 10.3.3](https://arxiv.org/abs/2307.08423):
+1. Generative Modeling: One of the largest problems in current LLMs—hallucination— becomes a strength for discovering molecules with high-level functions, abstract properties, and composition of many properties.
+2. Bridging Modalities: Language can serve as a “bridge” between modalities (e.g., cellular path-
+ways and drugs) when data is scarce.
+3. Domain Understanding: Grounding language models into external real world knowledge can improve understanding of unseen molecules and advance many emerging tasks, such as experimental procedure planning and reasoning, which use LLMs as scientific agents.
+4. Democratization: Language enables scientists without computational expertise to leverage advances in scientific AI.
+
+Research in scientific NLP, integrating molecules with natural language, and multimodal AI for science/medicine has experienced significant attention and growth in recent months. We believe now is the time to begin organizing this nascent community. To do so, we propose a new ACL workshop: "Language + Molecules". Further, to broaden the communities’ understanding of the associated challenges, methodologies, and goals, we are submitting a [EACL tutorial](https://2024.eacl.org/program/tutorials/). In the workshop’s first year, we will focus on the following research themes:
+
+- Going beyond language to incorporate molecular structure and interactions into LLMs.
+- Addressing data scarcity and inconsistency: new training methodologies and methods for extracting data from scientific literature.
+- Language-enabled solutions for discovering new drugs and molecules.
+- Incorporating domain knowledge from human-constructed databases into LLMs.
+
+
+_**Submission Instructions**_
+
+We plan to have both a non-archival proceedings of relevant papers, and a [shared task](https://language-plus-molecules.github.io/#sharedtask) to benchmark the progress of generative text-molecule models. Shared task submissions will be encouraged to submit short papers. All submissions should be in PDF format and made through [OpenReview submission portal](). Submissions must be anonymized following ACL guidelines, but a preprint policy will not be enforced. Information on submitting shared task predictions can be [found here](https://language-plus-molecules.github.io/#sharedtask).
+
+Authors are invited to submit papers between 4 and 8 papers, with unlimited pages for references and appendices. 
+In line with the ACL main conference policy, camera-ready versions of papers will be given one additional page of content. It should follow the ACL template style, which can be found [here](https://github.com/acl-org/acl-style-files). 
+
+The research presented in these papers should be substantially original. Regardless of their length, all submissions will undergo a single-track review process. 
+All submissions must be anonymous for double-blind review. 
+No author information should be included in the papers, and self-references that identify the authors should be avoided or anonymized. 
+We expect each paper to be reviewed by at least three reviewers. 
+To encourage higher quality submissions, we will offer Best Paper Award(s) based on nomination by the reviewers and extensive discussions among the chairs. Accepted papers will be presented as posters by default, and outstanding submissions will also be selected for oral or spotlight presentations. 
+
+
+According to the ACL workshop guidelines, we do not encourage the re-submission of already-published papers, but you are allowed to submit ArXiv pre-prints or those currently under submission. Moreover, a work that is presented at the *CL main conference should not appear in a workshop. Please be sure to indicate conflicts of interest for all authors on your paper.
+

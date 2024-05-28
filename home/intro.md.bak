@@ -1,0 +1,36 @@
+---
+widget: hero
+headless: true
+weight: 1
+title: |
+  Language + Molecules  
+  {style="color: white; font-size: 4rem; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;"}    
+  @ ACL 2024 Workshop
+  {style="color: white; font-size: 3rem; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;"}
+cta:
+  url: '#call'
+  label: '**Call for Papers**'
+cta_alt:
+  url: '#schedule'
+  label: '<span style="color: white">Schedule</span>'
+design:
+  background:
+    image: backgrounds/KG.webp
+    image_darken: 0.5
+    color: white
+  columns: '1'
+  css_class: d-flex align-items-center
+---
+
+
+{style="padding-top: 2rem"}
+
+August 12–17, 2024 hybrid in Bangkok, Thailand & Remote  
+{style="color: white; padding-bottom: 0rem"}
+
+<i>Synthesizing Language and Molecules for Scientific Insight and Discovery.</i>
+
+<br>
+
+
+
